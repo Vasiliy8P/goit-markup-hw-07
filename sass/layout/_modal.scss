@@ -1,3 +1,7 @@
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(0.9);
+}
+
 .modal {
     position: absolute;
     top: 50%;
@@ -24,9 +28,9 @@
     padding: 0;
     cursor: pointer;
     transition: fill var(--transition-dur-and-func);
-}
 
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-    fill: var(--accent-color);
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+    }
 }

@@ -29,11 +29,11 @@
     font-size: 14px;
     line-height: 1.71;
     transition: color var(--transition-dur-and-func);
-}
 
-.footer-contacts-item:hover .footer-contacts-link,
-.footer-contacts-item:focus .footer-contacts-link {
-    color: var(--accent-color);
+    .footer-contacts-item:hover &,
+    .footer-contacts-item:focus & {
+        color: var(--accent-color);
+    }
 }
 
 .footer-contacts-link.footer-mail,

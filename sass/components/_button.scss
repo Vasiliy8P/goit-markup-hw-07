@@ -18,9 +18,10 @@
     border: 1px solid transparent;
 
     transition: background-color var(--transition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        background-color: #188CE8;
+    }
 }
 
-.button:hover,
-.button:focus {
-    background-color: #188CE8;
-}

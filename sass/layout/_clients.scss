@@ -17,20 +17,21 @@
     border-radius: 4px;
 
     transition: border var(--transition-dur-and-func);
-}
 
-.clients-list-link:hover,
-.clients-list-link:focus {
-    border: 1px solid var(--accent-color);
+    &:hover,
+    &:focus {
+        border: 1px solid var(--accent-color);
+    }
 }
 
 .clients-list-icon {
     fill: #AFB1B8;
 
     transition: fill var(--transition-dur-and-func);
+
+    .clients-list-link:hover &,
+    .clients-list-link:focus & {
+        fill: var(--accent-color);
+    }
 }
 
-.clients-list-link:hover .clients-list-icon,
-.clients-list-link:focus .clients-list-icon {
-    fill: var(--accent-color);
-}

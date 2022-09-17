@@ -13,9 +13,10 @@
     border-radius: 50%;
 
     transition: background-color var(--transition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    }
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
-    background-color: var(--accent-color);
-}

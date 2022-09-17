@@ -39,11 +39,11 @@
     transition: border-color var(--transition-dur-and-func);
     font-size: 12px;
     letter-spacing: 0.01em;
-}
 
-.modal-form-input:focus {
-    outline: none;
-    border-color: var(--accent-color);
+    &:focus {
+        outline: none;
+        border-color: var(--accent-color);
+    }
 }
 
 .modal-form-input-icon {
@@ -54,10 +54,10 @@
     width: 18px;
     height: 18px;
     transition: fill var(--transition-dur-and-func);
-}
 
-.modal-form-input:focus+.modal-form-input-icon {
-    fill: var(--accent-color);
+    .modal-form-input:focus + & {
+        fill: var(--accent-color);
+    }
 }
 
 .modal-form-field-textarea {
@@ -76,19 +76,20 @@
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
+
+    &::placeholder {
+        font-size: 12px;
+        line-height: 1, 17;
+        letter-spacing: 0.01em;
+        color: rgba(117, 117, 117, 0.5);
+    }
+
+    &:focus {
+        outline: none;
+        border-color: var(--accent-color);
+    }
 }
 
-.modal-form-message::placeholder {
-    font-size: 12px;
-    line-height: 1, 17;
-    letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
-}
-
-.modal-form-message:focus {
-    outline: none;
-    border-color: var(--accent-color);
-}
 
 .modal-form-checkbox {
     display: flex;
@@ -107,24 +108,24 @@
     cursor: pointer;
     margin-right: 7px;
     transition: background-color var(--transition-dur-and-func);
+
+    .modal-form-check:checked + & {
+        background-color: var(--accent-color);
+        border: none;
+    }
+
+    .modal-form-check:focus + & {
+        border-color: var(--accent-color);
+    }
 }
 
 .modal-form-check-icon {
     display: none;
     fill: var(--white-text-color);
-}
 
-.modal-form-check:checked+.modal-form-own-check {
-    background-color: var(--accent-color);
-    border: none;
-}
-
-.modal-form-check:checked+.modal-form-own-check .modal-form-check-icon {
-    display: block;
-}
-
-.modal-form-check:focus+.modal-form-own-check {
-    border-color: var(--accent-color);
+    .modal-form-check:checked+.modal-form-own-check & {
+        display: block;
+    }
 }
 
 .modal-form-checkbox-policy {
@@ -136,10 +137,10 @@
 .modal-form-checkbox-policy-link {
     text-decoration-line: underline;
     color: var(--accent-color);
-}
 
-.modal-form-checkbox-policy-link:hover {
-    text-decoration-line: none;
+    &:hover {
+        text-decoration-line: none;
+    }
 }
 
 .modal-form-submit {

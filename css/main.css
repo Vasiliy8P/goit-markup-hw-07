@@ -99,9 +99,7 @@ img {
   border: 1px solid transparent;
   transition: background-color var(--transition-dur-and-func);
 }
-
-.button:hover,
-.button:focus {
+.button:hover, .button:focus {
   background-color: #188CE8;
 }
 
@@ -128,9 +126,7 @@ img {
   border-radius: 50%;
   transition: background-color var(--transition-dur-and-func);
 }
-
-.social-list-link:hover,
-.social-list-link:focus {
+.social-list-link:hover, .social-list-link:focus {
   background-color: var(--accent-color);
 }
 
@@ -157,7 +153,6 @@ img {
 .site-nav-item {
   position: relative;
 }
-
 .site-nav-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -173,16 +168,13 @@ img {
   letter-spacing: 0.02em;
   transition: color var(--transition-dur-and-func);
 }
-
-.site-nav-link:hover,
-.site-nav-link:focus {
+.site-nav-link:hover, .site-nav-link:focus {
   color: var(--accent-color);
 }
 
 .site-nav-link.current {
   color: var(--accent-color);
 }
-
 .site-nav-link.current::after {
   content: "";
   box-sizing: border-box;
@@ -220,9 +212,7 @@ img {
   letter-spacing: 0.02em;
   transition: color var(--transition-dur-and-func);
 }
-
-.header-contacts-link:hover,
-.header-contacts-link:focus {
+.header-contacts-link:hover, .header-contacts-link:focus {
   color: var(--accent-color);
 }
 
@@ -269,11 +259,9 @@ img {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
 }
-
 .about-list-item:nth-child(4n) {
   margin-right: 0;
 }
-
 .about-list-item::before {
   content: "";
   display: block;
@@ -367,7 +355,6 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
 .team-list-position:not(:nth-child(4n)) {
   margin-right: 30px;
 }
@@ -408,9 +395,7 @@ img {
   fill: #AFB1B8;
   transition: fill var(--transition-dur-and-func);
 }
-
-.social-list-link:hover .team-social-list-icon,
-.social-list-link:focus .team-social-list-icon {
+.social-list-link:hover .team-social-list-icon, .social-list-link:focus .team-social-list-icon {
   fill: #FFFFFF;
 }
 
@@ -433,9 +418,7 @@ img {
   border-radius: 4px;
   transition: border var(--transition-dur-and-func);
 }
-
-.clients-list-link:hover,
-.clients-list-link:focus {
+.clients-list-link:hover, .clients-list-link:focus {
   border: 1px solid var(--accent-color);
 }
 
@@ -443,9 +426,7 @@ img {
   fill: #AFB1B8;
   transition: fill var(--transition-dur-and-func);
 }
-
-.clients-list-link:hover .clients-list-icon,
-.clients-list-link:focus .clients-list-icon {
+.clients-list-link:hover .clients-list-icon, .clients-list-link:focus .clients-list-icon {
   fill: var(--accent-color);
 }
 
@@ -481,9 +462,7 @@ img {
   line-height: 1.71;
   transition: color var(--transition-dur-and-func);
 }
-
-.footer-contacts-item:hover .footer-contacts-link,
-.footer-contacts-item:focus .footer-contacts-link {
+.footer-contacts-item:hover .footer-contacts-link, .footer-contacts-item:focus .footer-contacts-link {
   color: var(--accent-color);
 }
 
@@ -546,7 +525,6 @@ img {
   line-height: 1.25;
   transition: border-color var(--transition-dur-and-func);
 }
-
 .footer-form-input::placeholder {
   font-weight: 400;
   font-size: 16px;
@@ -556,7 +534,6 @@ img {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-form-input:focus {
   outline: none;
   border-color: var(--accent-color);
@@ -622,9 +599,7 @@ img {
   cursor: pointer;
   transition: fill var(--transition-dur-and-func);
 }
-
-.modal-close-btn:hover,
-.modal-close-btn:focus {
+.modal-close-btn:hover, .modal-close-btn:focus {
   fill: var(--accent-color);
 }
 
@@ -670,7 +645,6 @@ img {
   font-size: 12px;
   letter-spacing: 0.01em;
 }
-
 .modal-form-input:focus {
   outline: none;
   border-color: var(--accent-color);
@@ -685,7 +659,6 @@ img {
   height: 18px;
   transition: fill var(--transition-dur-and-func);
 }
-
 .modal-form-input:focus + .modal-form-input-icon {
   fill: var(--accent-color);
 }
@@ -707,14 +680,12 @@ img {
   line-height: 1.17;
   letter-spacing: 0.01em;
 }
-
 .modal-form-message::placeholder {
   font-size: 12px;
   line-height: 1, 17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .modal-form-message:focus {
   outline: none;
   border-color: var(--accent-color);
@@ -738,23 +709,20 @@ img {
   margin-right: 7px;
   transition: background-color var(--transition-dur-and-func);
 }
+.modal-form-check:checked + .modal-form-own-check {
+  background-color: var(--accent-color);
+  border: none;
+}
+.modal-form-check:focus + .modal-form-own-check {
+  border-color: var(--accent-color);
+}
 
 .modal-form-check-icon {
   display: none;
   fill: var(--white-text-color);
 }
-
-.modal-form-check:checked + .modal-form-own-check {
-  background-color: var(--accent-color);
-  border: none;
-}
-
 .modal-form-check:checked + .modal-form-own-check .modal-form-check-icon {
   display: block;
-}
-
-.modal-form-check:focus + .modal-form-own-check {
-  border-color: var(--accent-color);
 }
 
 .modal-form-checkbox-policy {
@@ -767,7 +735,6 @@ img {
   text-decoration-line: underline;
   color: var(--accent-color);
 }
-
 .modal-form-checkbox-policy-link:hover {
   text-decoration-line: none;
 }
@@ -802,9 +769,7 @@ img {
   text-align: center;
   transition: color var(--transition-dur-and-func), background-color var(--transition-dur-and-func), box-shadow var(--transition-dur-and-func);
 }
-
-.examples-filter-button:hover,
-.examples-filter-button:focus {
+.examples-filter-button:hover, .examples-filter-button:focus {
   color: var(--white-text-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -835,9 +800,7 @@ img {
   display: inline-block;
   transition: box-shadow var(--transition-dur-and-func);
 }
-
-.examples-projects-link:hover,
-.examples-projects-link:focus {
+.examples-projects-link:hover, .examples-projects-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -894,8 +857,6 @@ img {
   transform: translateY(100%);
   transition: transform var(--transition-dur-and-func);
 }
-
-.examples-projects-link:hover .examples-project-text-hidden,
-.examples-projects-link:focus .examples-project-text-hidden {
+.examples-projects-link:hover .examples-project-text-hidden, .examples-projects-link:focus .examples-project-text-hidden {
   transform: translateY(0);
 }/*# sourceMappingURL=main.css.map */
