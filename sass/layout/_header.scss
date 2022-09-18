@@ -28,15 +28,13 @@
     }
 }
 
-
 .site-nav-link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 
     color: var(--primary-text-color);
-    font-weight: 500;
-    font-size: 14px;
+    @include font(14px, 500);
     line-height: 1.14;
     letter-spacing: 0.02em;
     transition: color var(--transition-dur-and-func);
@@ -68,8 +66,8 @@
 
 .header-contacts {
     display: flex;
-    margin-left: auto;
     align-items: center;
+    margin-left: auto;
 }
 
 .header-contacts-item:not(:last-child) {
@@ -77,15 +75,12 @@
 }
 
 .header-contacts-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include align;
     padding-top: 32px;
     padding-bottom: 32px;
 
     color: var(--secondary-text-color);
-    font-weight: 500;
-    font-size: 14px;
+    @include font(14px, 500);
     line-height: 1.14;
     letter-spacing: 0.02em;
 

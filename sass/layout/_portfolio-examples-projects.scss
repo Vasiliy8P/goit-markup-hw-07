@@ -9,9 +9,8 @@
 }
 
 .examples-projects-link {
-    color: inherit;
     display: inline-block;
-
+    color: inherit;
     transition: box-shadow var(--transition-dur-and-func);
 
     &:hover,
@@ -68,8 +67,7 @@
     width: 100%;
     height: 100%;
 
-    font-weight: 400;
-    font-size: 18px;
+    @include font(18px, 400);
     line-height: 1.56;
     color: var(--white-text-color);
     background-color: rgba(33, 150, 243, 0.9);

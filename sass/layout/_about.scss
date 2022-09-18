@@ -1,5 +1,24 @@
 .about-list {
     display: flex;
+
+    .title-text {
+        padding-top: 30px;
+    }
+
+    .title {
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .text {
+        color: var(--secondary-text-color);
+        line-height: 1.71;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
 
 .about-list-item {
@@ -34,23 +53,4 @@
 
 .icon-astronaut::before {
     background-image: url("../images/icon/about/astronaut.svg");
-}
-
-.about-list .title-text {
-    padding-top: 30px;
-}
-
-.about-list .title {
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-
-.about-list .text {
-    color: var(--secondary-text-color);
-    line-height: 1.71;
-    margin-top: 0;
-    margin-bottom: 0;
 }

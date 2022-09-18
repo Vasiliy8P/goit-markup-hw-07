@@ -1,8 +1,7 @@
 .modal-form-title {
     margin-top: 0;
     margin-bottom: 12px;
-    font-weight: 700;
-    font-size: 20px;
+    @include font(20px, 700);
     line-height: 1, 15;
     text-align: center;
 }
@@ -90,18 +89,13 @@
     }
 }
 
-
 .modal-form-checkbox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include align;
     margin-bottom: 30px;
 }
 
 .modal-form-own-check {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include align;
     border: 2px solid var(--primary-text-color);
     border-radius: 2px;
     fill: var(--white-text-color);

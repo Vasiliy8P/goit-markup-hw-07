@@ -25,7 +25,6 @@
 
 .footer-contacts-link {
     color: var(--white-text-color);
-    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     transition: color var(--transition-dur-and-func);
@@ -44,8 +43,7 @@
 /* footer-social */
 
 .footer-social-text {
-    font-weight: 700;
-    font-size: 14px;
+    @include font(14px, 700);
     line-height: 16px;
     text-transform: uppercase;
     color: var(--white-text-color);

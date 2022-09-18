@@ -9,10 +9,9 @@
 }
 
 .clients-list-link {
-    display: flex;
+    @include align;
+
     height: 92px;
-    align-items: center;
-    justify-content: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 
