@@ -14,8 +14,7 @@
     color: var(--primary-text-color);
     background-color: var(--secondary-background-color);
     font-family: inherit;
-    @include font(16px, 500);
-    line-height: 1.63;
+    @include font(16px, 500, 26px);
     letter-spacing: 0.03em;
     cursor: pointer;
 

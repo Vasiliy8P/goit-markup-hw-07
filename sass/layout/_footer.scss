@@ -43,8 +43,7 @@
 /* footer-social */
 
 .footer-social-text {
-    @include font(14px, 700);
-    line-height: 16px;
+    @include font(14px, 700, 16px);
     text-transform: uppercase;
     color: var(--white-text-color);
     margin-top: 0;

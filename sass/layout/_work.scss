@@ -16,8 +16,7 @@
         height: 70px;
         margin: 0;
 
-        @include font(14px, 700);
-        line-height: 1.14;
+        @include font(14px, 700, 16px);
         text-align: center;
         text-transform: uppercase;
 

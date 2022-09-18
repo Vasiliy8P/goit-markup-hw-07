@@ -1,8 +1,7 @@
 .modal-form-title {
     margin-top: 0;
     margin-bottom: 12px;
-    @include font(20px, 700);
-    line-height: 1, 15;
+    @include font(20px, 700, 23px);
     text-align: center;
 }
 

@@ -34,8 +34,7 @@
     padding-bottom: 32px;
 
     color: var(--primary-text-color);
-    @include font(14px, 500);
-    line-height: 1.14;
+    @include font(14px, 500, 16px);
     letter-spacing: 0.02em;
     transition: color var(--transition-dur-and-func);
 
@@ -80,8 +79,7 @@
     padding-bottom: 32px;
 
     color: var(--secondary-text-color);
-    @include font(14px, 500);
-    line-height: 1.14;
+    @include font(14px, 500, 16px);
     letter-spacing: 0.02em;
 
     transition: color var(--transition-dur-and-func);

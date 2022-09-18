@@ -1,7 +1,6 @@
 .logo {
     font-family: Raleway, sans-serif;
-    @include font(26px, 700);
-    line-height: 1.19;
+    @include font(26px, 700, 31px);
 }
 
 .logo-part {

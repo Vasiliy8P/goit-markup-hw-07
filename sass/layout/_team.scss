@@ -29,8 +29,7 @@
     .member {
         margin-top: 0;
         margin-bottom: 10px;
-        @include font(16px, 500);
-        line-height: 1.19;
+        @include font(16px, 500, 19px);
     }
 
     .position {
