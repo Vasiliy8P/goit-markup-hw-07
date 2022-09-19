@@ -53,8 +53,8 @@
 
     transition: fill var(--transition-dur-and-func);
 
-    .social-list-link:hover &,
-    .social-list-link:focus & {
+    .social-list__link:hover &,
+    .social-list__link:focus & {
         fill: #FFFFFF;
     }
 }

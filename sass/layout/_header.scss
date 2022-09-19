@@ -1,10 +1,10 @@
 /* logo */
 
-.logo-dark {
+.logo_color_dark {
     color: #000000;
 }
 
-.header {
+.page-header {
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -20,7 +20,7 @@
     margin-left: 93px;
 }
 
-.site-nav-item {
+.site-nav__item {
     position: relative;
 
     &:not(:last-child) {
@@ -28,7 +28,7 @@
     }
 }
 
-.site-nav-link {
+.site-nav__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -44,7 +44,7 @@
     }
 }
 
-.site-nav-link.current {
+.site-nav__link_current {
     color: var(--accent-color);
 
     &::after {
@@ -69,11 +69,11 @@
     margin-left: auto;
 }
 
-.header-contacts-item:not(:last-child) {
+.header-contacts__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.header-contacts-link {
+.header-contacts__link {
     @include align;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -90,7 +90,7 @@
     }
 }
 
-.header-contacts-icon {
+.header-contacts__icon {
     fill: currentColor;
     margin-right: 10px;
 }
