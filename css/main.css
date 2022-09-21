@@ -325,7 +325,7 @@ img {
 }
 
 /* logo */
-.logo_color_dark {
+.logo--color_dark {
   color: #000000;
 }
 
@@ -366,10 +366,10 @@ img {
   color: var(--accent-color);
 }
 
-.site-nav__link_current {
+.site-nav__link--current {
   color: var(--accent-color);
 }
-.site-nav__link_current::after {
+.site-nav__link--current::after {
   content: "";
   box-sizing: border-box;
   position: absolute;
@@ -632,7 +632,7 @@ img {
   margin-right: 70px;
 }
 
-.logo_color_light {
+.logo--color_light {
   color: var(--white-text-color);
   display: block;
   margin-bottom: 20px;

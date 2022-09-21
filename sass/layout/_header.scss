@@ -1,6 +1,6 @@
 /* logo */
 
-.logo_color_dark {
+.logo--color_dark {
     color: #000000;
 }
 
@@ -44,7 +44,7 @@
     }
 }
 
-.site-nav__link_current {
+.site-nav__link--current {
     color: var(--accent-color);
 
     &::after {
