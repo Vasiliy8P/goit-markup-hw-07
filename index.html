@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Студія</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,11 +17,11 @@
 <body class="page">
     <!--Шапка проекту-->
     <header class="page-header">
-        <div class="container main-header">
+        <div class="container page-header__container">
             <a class="logo logo--color_dark" href="./index.html" lang="en">
                 <span class="logo__part">Web</span>Studio</a>
-            <nav>
-                <ul class="list site-nav">
+            <nav class="site-nav">
+                <ul class="list">
                     <li class="site-nav__item">
                         <a class="site-nav__link site-nav__link--current" href="./index.html">Студія</a>
                     </li>
@@ -33,6 +33,11 @@
                     </li>
                 </ul>
             </nav>
+            <button type="button" class="open-mobile-menu-btn">
+                <svg aria-label="іконка кнопки мобільного меню" class="open-mobile-menu-btn__icon" width="40" height="40">
+                    <use href="./images/icon/sprite.svg#icon-burger"></use>
+                </svg>
+            </button>
             <ul class="list header-contacts">
                 <li class="header-contacts__item">
                     <a class="header-contacts__link" href="mailto:info@devstudio.com">
@@ -55,16 +60,16 @@
         </div>
     </header>
     <!--Основна частина проекту-->
-    <main>
+    <!-- <main> -->
         <!--Секція 1 герой-->
-        <section class="hero">
+        <!-- <section class="hero">
             <div class="container">
                 <h1 class="hero-title">Ефективні рішення для <br> вашого бізнесу</h1>
                 <button class="button hero_button" type="button" data-modal-open>Замовити послугу</button>
             </div>
-        </section>
+        </section> -->
         <!--Секція 2 про компанію-->
-        <section class="section">
+        <!-- <section class="section">
             <div class="container">
                 <h2 class="section-title visually-hidden">Про компанію</h2>
                 <ul class="list about-list">
@@ -98,9 +103,9 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
         <!--Секція 3 чим займається компанія-->
-        <section class="section no-padding-top">
+        <!-- <section class="section no-padding-top">
             <div class="container">
                 <h2 class="section-title">Чим ми займаємося</h2>
                 <ul class="list work-list">
@@ -130,9 +135,9 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
         <!--Секція 4 команда компанії-->
-        <section class="section team-section">
+        <!-- <section class="section team-section">
             <div class="container">
                 <h2 class="section-title">Наша команда</h2>
                 <ul class="list team-list">
@@ -286,9 +291,9 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
         <!-- Постійні клієнти -->
-        <section class="section">
+        <!-- <section class="section">
             <div class="container">
                 <h2 class="section-title">Постійні клієнти</h2>
                 <ul class="list clients-list">
@@ -337,10 +342,10 @@
                 </ul>
 
             </div>
-        </section>
-    </main>
+        </section> -->
+    <!-- </main> -->
     <!--Підвал проекту-->
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container footer-contacts-social">
             <div class="footer-logo-contacts">
                 <a class="logo logo--color_light" href="./index.html">
@@ -488,6 +493,6 @@
             </form>
         </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script> -->
 </body>
 </html>
