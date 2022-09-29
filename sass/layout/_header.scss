@@ -11,6 +11,7 @@
 }
 
 .page-header {
+    position: relative;
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -25,7 +26,21 @@
     border: none;
     padding: 0;
     background-color: transparent;
+    line-height: 0;
+    cursor: pointer;
 }
+
+.open-mobile-menu-btn__icon {
+    fill: var(--primary-text-color);
+    cursor: pointer;
+    transition: fill var(--transition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+    }
+}
+
 
 /* site-navigation */
 

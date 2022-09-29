@@ -33,7 +33,7 @@
                     </li>
                 </ul>
             </nav>
-            <button type="button" class="open-mobile-menu-btn">
+            <button type="button" class="open-mobile-menu-btn js-open-menu">
                 <svg aria-label="іконка кнопки мобільного меню" class="open-mobile-menu-btn__icon" width="40" height="40">
                     <use href="./images/icon/sprite.svg#icon-burger"></use>
                 </svg>
@@ -57,6 +57,48 @@
                     </a>
                 </li>
             </ul>
+        </div>
+        <div class="mobile-menu js-menu-container">
+            <div class="container mobile-menu__container">
+                <button type="button" class="mobile-menu__close-btn js-close-menu">
+                    <svg aria-label="кнопка закриття мобільного меню" class="mobile-menu__close-icon" width="40" height="40">
+                        <use href="./images/icon/sprite.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <ul class="list mobile-menu__site-nav">
+                    <li class="mobile-menu__site-nav-item">
+                        <a class="mobile-menu__site-nav-link mobile-menu__site-nav-link--current" href="./index.html">Студія</a>
+                    </li>
+                    <li class="mobile-menu__site-nav-item">
+                        <a class="mobile-menu__site-nav-link" href="./portfolio.html">Портфоліо</a>
+                    </li>
+                    <li class="mobile-menu__site-nav-item">
+                        <a class="mobile-menu__site-nav-link" href="">Контакти</a>
+                    </li>
+                </ul>
+                <ul class="list mobile-menu__contacts">
+                    <li class="mobile-menu__contacts-item">
+                        <a class="mobile-menu__contacts-link-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                    <li class="mobile-menu__contacts-item">
+                        <a class="mobile-menu__contacts-link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                </ul>
+                <ul class="list mobile-menu__social-list">
+                    <li class="mobile-menu__social-list-item">
+                        <a class="mobile-menu__social-list-link" href="">Instagram</a>
+                    </li>
+                    <li class="mobile-menu__social-list-item">
+                        <a class="mobile-menu__social-list-link" href="">Twitter</a>
+                    </li>
+                    <li class="mobile-menu__social-list-item">
+                        <a class="mobile-menu__social-list-link" href="">Facebook</a>
+                    </li>
+                    <li class="mobile-menu__social-list-item">
+                        <a class="mobile-menu__social-list-link" href="">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <!--Основна частина проекту-->
@@ -494,5 +536,7 @@
         </div>
     </div>
     <script src="./js/modal.js"></script> -->
+    
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
